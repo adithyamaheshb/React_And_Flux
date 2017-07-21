@@ -1,0 +1,16 @@
+{
+	"preset": "node-style-guide",
+	"requireCamelCaseOrUpperCaseIdentifiers": "ignoreProperties", // for external APIs
+	"requireCapitalizedComments": null, // why???
+	"requireCurlyBraces": null, // allow one lines
+	"requireTrailingComma": null, optional
+	"validateLineBreaks": "LF"
+
+	// personal style
+	"maximumLineLength": { // 80 is a goal, but sometimes it's necessary
+		"value": 120,
+		"allowComments": true
+	},
+	"requireSpacesInConditionalExpression": true, // a == b ? 1 : 2
+	"requireSpacesInsideObjectBrackets": "all" // force { my: "key" },
+}
